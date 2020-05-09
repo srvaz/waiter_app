@@ -8,6 +8,8 @@ on:
 
 jobs:
   build:
+    env:
+      sdk: ">=2.7.0 <3.0.0"
 
     runs-on: ubuntu-latest
 
